@@ -1,0 +1,397 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body {
+
+    background-image: url();
+
+}
+
+#box-1 {
+
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+
+}
+
+#barraNavegacion {
+
+    width: 90%;
+    height: auto;
+    padding: 0px 10px 0px 0px;
+    align-content: center;
+
+}
+
+.nav-lista {
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    border: 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.333);
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.nav-lista li a {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.777);
+    border-radius: 5px;
+    width: 100%;
+        
+}
+
+.nav-lista li {
+
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    align-content: center;
+
+}
+
+.lista {
+
+    width: 10%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.333);
+    border: 2px solid white;
+
+}
+
+
+.logo {
+
+    width: 20%;
+    height: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.logo img {
+
+    width: 70%;
+    height: auto;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.759);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.titulo {
+
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+
+}
+
+.titulo h1 {
+
+    color: white;
+
+}
+
+.logo-sesion {
+
+    width: 15%;
+    height: auto;
+    text-align: center;
+    align-content: center;
+
+}
+
+.logo-sesion img {
+
+    width: 30%;
+    height: auto;
+
+}
+
+#agenda-hora {
+
+    width: 85%;
+    height: 500px;
+    padding: 15px;
+    display: flex;
+    margin: auto;
+
+}
+
+.agenda {
+
+    width: 50%;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    border: 0; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.759);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.agenda-1 {
+
+    width: 50%;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.video1 {
+
+    width: 800px;
+    height: 450px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+
+} 
+
+.form-1 {
+
+    width: 80%;
+    height: 120px;
+    margin: auto;
+    padding: 20px 20px;
+    border: 0; 
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.759);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.from-estruc {
+
+    width: 90%;
+    height: 130px;
+    margin: auto;
+    align-content: center;
+
+}
+
+.titulo-agenda {
+
+    margin: 0 15px 15px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.759);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.sub-titulo {
+
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+
+.selec {
+
+    width: 70%;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.759);
+    background-color: rgb(255, 255, 255);
+
+}
+
+#btn-from {
+
+    margin: 20px 20px 20px 20px;
+    text-align: end;
+    
+}
+
+button {
+
+    width: 100px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.759);
+    background-color: rgb(255, 255, 255);
+
+}
+
+#box-2 {
+
+    width: 60%;
+    height: 100px;
+    border: 0;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.759);
+
+}
+
+.alumnos {
+
+    width: 150px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    border: 1px solid black;
+
+}
+
+.apoderados {
+
+    width: 180px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    border: 1px solid black;
+
+}
+
+h2 {
+
+    color: rgb(255, 255, 255);
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+.slider-box {
+
+    width: 1100px;
+    height: auto;
+    
+    margin: 50px auto 0;
+    overflow: hidden;
+    border: 0;
+    border-radius: 10px;
+
+}
+
+.slider-box ul {
+
+    display:  flex;
+    padding: 0;
+    width: 300%;
+    animation: slide 20s infinite alternate ease-in-out;
+
+}
+
+.slider-box li {
+
+    width: 100%;
+    list-style: none;
+    position: relative;
+
+}
+
+.slider-box img {
+
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.759);
+
+}
+
+@keyframes slide {
+
+    0% { margin-left: 0;}
+    15% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+
+}
+
+#box-end {
+
+    width: 90%;
+    height: 130px;
+    margin: 10px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.contacto {
+
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.759);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.horarios {
+
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.759);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.direccion {
+
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.759);
+    background-color: rgb(255, 255, 255);
+
+}
+
+
